@@ -1,4 +1,4 @@
-# KernelSU_Build_Test  
+# KernelSU_Build_Test_OP_SM8250  
 
 ## Important Things
 
