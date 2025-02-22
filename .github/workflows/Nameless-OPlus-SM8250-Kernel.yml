@@ -2,7 +2,7 @@ name: Build Nameless OPlus SM8250 Kernel
 
 on:
   schedule: 
-    - cron: "12 2 * * *"
+    - cron: "00 16 * * *"
   workflow_dispatch:
 
 env:
