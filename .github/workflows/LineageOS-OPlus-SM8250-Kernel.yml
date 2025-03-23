@@ -124,7 +124,7 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace/android-kernel/include/linux
         sed -i 's|extern long strncpy_from_unsafe_user|long strncpy_from_user_nofault|' uaccess.h
-        sed -i 's|				                           long count);|                               long count);|' uaccess.h
+        sed -i 's|				     long count);|                               long count);|' uaccess.h
         cd $GITHUB_WORKSPACE/kernel_workspace/android-kernel/mm
         sed -i 's|strncpy_from_unsafe_user|strncpy_from_user_nofault|' maccess.c
 
